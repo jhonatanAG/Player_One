@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Player One</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/playerone.css"/>
+    <link rel="icon" href="images/playerone.ico"/>
+  </head>
+  <body>
+    <section id="portada" class="portada background"> <!-- portada -->
+      <header id="header" class="header contenedor"> <!-- header -->
+        <figure class="logotipo"> <!-- logotipo -->
+          <img src="images/header.png" width="186" height="60" alt="Player One logotipo"/>
+        </figure>
+        <nav class="menu"> <!-- menu -->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#playeras">Playeras</a>
+            </li>
+            <li>
+              <a href="carrito.html">Carrito</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contenedor">
+        <h1 class="titulo"><span>Player</span>as personalizadas</h1><!-- titulo -->
+        <h3 class="title-a">Luce las playeras que siempre soñaste</h3><!-- resumen -->
+        <a class="button" href="localizacion.html">Localización</a><!-- boton -->
+      </div>
+    </section>
+    <section id="playeras" class="playeras contenedor"> <!-- playeras -->
+      <h2>Nuestras playeras</h2><!-- titulo -->
+      <article class="playera"> <!-- playera 1 -->
+        <img class="derecha" src="images/uno.png" alt="Modelo Uno" width="270"/>
+        <div class="contenedor-playera-a">
+          <h3 class="title-b">Modelo uno</h3>
+          <ol>
+            <li>Algodon</li>
+            <li>Duradera</li>
+            <li>Incluye precio especial</li>
+            <br> <a class="button" href="precios.html"> Ver Precio</a> </br>
+          </ol>
+        </div>
+      </article>
+      <article class="playera b"> <!-- playera 2 -->
+        <img class="izquierda" src="images/dos.png" alt="Modelo Dos" width="283"/>
+        <div class="contenedor-playera-b">
+          <h3 class="title-b">Modelo dos</h3>
+          <ol>
+            <li>Estilo de vida rockero</li>
+            <li>Comoda</li>
+            <li>Luce como nunca</li>
+            <br> <a class="button" href="precios.html"> Ver Precio</a> </br>
+          </ol>
+        </div>
+      </article>
+        <article class="playera"> <!-- playera 3 -->
+        <img class="derecha" src="images/Playera3.jpg" alt="Modelo Tres" width="270"/>
+        <div class="contenedor-playera-a">
+          <h3 class="title-b">Modelo Tres</h3>
+          <ol>
+            <li>Algodon</li>
+            <li>Duradera</li>
+            <li>Incluye precio especial</li>
+            <br> <a class="button" href="precios.html"> Ver Precio</a> </br>
+          </ol>
+        </div>
+      </article>
+      <article class="playera b"> <!-- playera 4 -->
+        <img class="izquierda" src="images/Playera4.jpeg" alt="Modelo Cuatro" width="200"/>
+        <div class="contenedor-playera-b">
+          <h3 class="title-c">Modelo Cuatro</h3>
+          <ol>
+            <li>Estilo de vida rockero</li>
+            <li>Comoda</li>
+            <li>Luce como nunca</li>
+            <br> <a class="button" href="precios.html"> Ver Precio</a> </br>
+          </ol>
+        </div>
+      </article>
+    </section>
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="images/4.png" alt="logotipo blanco"/>
+          <a href="tel:+525542869102"><strong>Telefono</strong> <span>5542869102</span></a>
+          <a href="mailto:contacto@playerone.com"><strong>E-mail</strong> <span>contacto@playerone.com</span></a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>  
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+            </div>
+          </div>
+          <div class="col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar" class="button"/>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
